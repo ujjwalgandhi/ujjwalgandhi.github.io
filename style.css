@@ -1,0 +1,46 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+#himg{
+	position: relative;
+	width: 100%;
+	height: 600px;
+	z-index: -1;
+}
+
+#himg2{
+	position: absolute;
+	top: 350px;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 100%;
+	height: 350px;
+	z-index: 2;
+}
+
+#htext{
+	position: absolute;
+	top: 20vh;
+	color: white;
+	left: 50%;
+	transform: translateX(-50%);
+	font-family: "Calibri";
+	font-size: 108px;
+}
+
+#c1{
+	position: relative;
+	z-index: 1;
+	height: 600px;
+	background: linear-gradient(black, #FF7F50);
+}
+
+#c11{
+	position: absolute;
+	top: 20vh;
+	left: 50%;
+	color: white;
+	transform: translate(-50%);
+}
